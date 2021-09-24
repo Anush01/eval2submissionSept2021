@@ -37,5 +37,8 @@ public class SneakerFragment extends Fragment {
 
         navController = Navigation.findNavController(view);
 
+
+
+
     }
 }
