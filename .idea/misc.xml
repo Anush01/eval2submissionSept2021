@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.390625" />
         <entry key="app/src/main/res/layout/fragment_sneaker.xml" value="0.32395833333333335" />
+        <entry key="app/src/main/res/layout/fragment_sneaker_details.xml" value="0.33541666666666664" />
         <entry key="app/src/main/res/layout/item_view.xml" value="0.32395833333333335" />
       </map>
     </option>

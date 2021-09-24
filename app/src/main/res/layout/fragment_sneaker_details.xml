@@ -5,10 +5,76 @@
     android:layout_height="match_parent"
     tools:context=".SneakerDetailsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        >
+
+        <ImageView
+            android:id="@+id/shoedetailphoto"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_launcher_background"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name of shoe"
+            android:id="@+id/namedetail"
+            android:layout_below="@+id/shoedetailphoto"
+            android:layout_centerHorizontal="true"
+            android:textSize = "18sp"
+            android:textColor = "#000000"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="brand here"
+            android:id="@+id/branddetail"
+            android:layout_below="@+id/namedetail"
+            android:layout_centerHorizontal="true"
+            android:textSize = "18sp"
+            android:textColor = "#000000"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Year of manufacturing"
+            android:id="@+id/yearofman"
+            android:layout_below="@+id/branddetail"
+            android:layout_centerHorizontal="true"
+            android:textSize = "18sp"
+            android:textColor = "#000000"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/pricedetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/yearofman"
+            android:layout_centerHorizontal="true"
+            android:text="500 usd"
+            android:textColor="#000000"
+            android:textSize="18sp"></TextView>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to cart"
+            android:id="@+id/addcart"
+            android:layout_below="@+id/pricedetail"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#FF9800"/>
+
+
+    </RelativeLayout>
+
+
+
 
 </FrameLayout>

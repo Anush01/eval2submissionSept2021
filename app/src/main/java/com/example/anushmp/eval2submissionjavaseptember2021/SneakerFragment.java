@@ -63,7 +63,7 @@ public class SneakerFragment extends Fragment {
 
                 ShoeList = response.body();
 
-                ShoeAdapter sa = new ShoeAdapter(ShoeList);
+                ShoeAdapter sa = new ShoeAdapter(ShoeList, view);
 
                 GridLayoutManager glm = new GridLayoutManager(getContext(),2,RecyclerView.VERTICAL,false);
 
