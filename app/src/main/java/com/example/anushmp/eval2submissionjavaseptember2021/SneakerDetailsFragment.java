@@ -5,6 +5,8 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,6 +26,9 @@ public class SneakerDetailsFragment extends Fragment {
     TextView year;
     TextView price;
     Button addtocart;
+    Button backtosneakers;
+
+    NavController n;
 
 
 
@@ -53,6 +58,9 @@ public class SneakerDetailsFragment extends Fragment {
         price = view.findViewById(R.id.pricedetail);
 
         addtocart = view.findViewById(R.id.addcart);
+        backtosneakers = view.findViewById(R.id.backtosneakers);
+
+        n = Navigation.findNavController(view);
 
 
         String name1 = getArguments().getString("name");
@@ -71,6 +79,14 @@ public class SneakerDetailsFragment extends Fragment {
 
 
 
+        backtosneakers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                n.navigate(R.id.action_sneakerDetailsFragment_to_sneakerFragment);
+
+            }
+        });
 
 
 

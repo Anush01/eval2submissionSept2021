@@ -72,6 +72,17 @@
             android:backgroundTint="#FF9800"/>
 
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backtosneakers"
+            android:layout_below="@+id/addcart"
+            android:layout_centerHorizontal="true"
+            android:text="back"
+            android:backgroundTint="#FF9800"
+            ></Button>
+
+
     </RelativeLayout>
 
 

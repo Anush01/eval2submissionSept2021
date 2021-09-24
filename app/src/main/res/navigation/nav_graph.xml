@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_sneakerDetailsFragment_to_checkOutFragment"
             app:destination="@id/checkOutFragment" />
+        <action
+            android:id="@+id/action_sneakerDetailsFragment_to_sneakerFragment"
+            app:destination="@id/sneakerFragment" />
     </fragment>
     <fragment
         android:id="@+id/checkOutFragment"
