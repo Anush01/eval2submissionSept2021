@@ -73,6 +73,11 @@ public class ShoeAdapter extends RecyclerView.Adapter<ShoeAdapter.ShoeVH>{
             super(itemView);
 
 
+            priceofshoe = itemView.findViewById(R.id.priceofshoe);
+            nameofshoe = itemView.findViewById(R.id.nameofshoe);
+            shoephoto = itemView.findViewById(R.id.shoephoto);
+
+
 
 
         }
