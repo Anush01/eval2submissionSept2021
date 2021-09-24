@@ -4,7 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class SneakerActivity extends AppCompatActivity {
+
+
+    //navgraph
+    //retrofit
+    //itemlayout
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
